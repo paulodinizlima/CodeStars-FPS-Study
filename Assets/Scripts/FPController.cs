@@ -18,6 +18,7 @@ public class FPController : MonoBehaviour
 
     void FixedUpdate() 
     {
-                
+        float x = Input.GetAxis("Horizontal");
+        float z = Input.GetAxis("Vertical");
     }
 }
